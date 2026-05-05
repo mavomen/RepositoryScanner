@@ -33,8 +33,8 @@
         
 <g id="language-bar" clip-path="url(#barClip)" shape-rendering="crispEdges">
 <rect x="60" y="85" width="261" height="24" class="python"/>
-<rect x="321" y="85" width="119" height="24" class="lua"/>
-<rect x="440" y="85" width="82" height="24" class="csharp"/>
+<rect x="321" y="85" width="120" height="24" class="lua"/>
+<rect x="441" y="85" width="81" height="24" class="csharp"/>
 <rect x="522" y="85" width="8" height="24" class="rust"/>
 <rect x="530" y="85" width="5" height="24" class="vimscript"/>
 <rect x="535" y="85" width="5" height="24" class="shell"/>
@@ -45,17 +45,17 @@
 <g transform="translate(60.0, 134)">
 <circle cx="8" cy="-3" r="5" class="python"/>
 <text x="24" y="0" class="fg-primary font-lang">Python</text>
-<text x="236.0" y="0" class="fg-secondary font-percent" text-anchor="end">54.41%</text>
+<text x="236.0" y="0" class="fg-secondary font-percent" text-anchor="end">54.25%</text>
 </g>
 <g transform="translate(60.0, 156)">
 <circle cx="8" cy="-3" r="5" class="lua"/>
 <text x="24" y="0" class="fg-primary font-lang">Lua</text>
-<text x="236.0" y="0" class="fg-secondary font-percent" text-anchor="end">24.63%</text>
+<text x="236.0" y="0" class="fg-secondary font-percent" text-anchor="end">24.85%</text>
 </g>
 <g transform="translate(60.0, 178)">
 <circle cx="8" cy="-3" r="5" class="csharp"/>
 <text x="24" y="0" class="fg-primary font-lang">C#</text>
-<text x="236.0" y="0" class="fg-secondary font-percent" text-anchor="end">16.93%</text>
+<text x="236.0" y="0" class="fg-secondary font-percent" text-anchor="end">16.88%</text>
 </g>
 <g transform="translate(300.0, 134)">
 <circle cx="8" cy="-3" r="5" class="rust"/>
@@ -65,21 +65,21 @@
 <g transform="translate(300.0, 156)">
 <circle cx="8" cy="-3" r="5" class="vimscript"/>
 <text x="24" y="0" class="fg-primary font-lang">Vim Script</text>
-<text x="236.0" y="0" class="fg-secondary font-percent" text-anchor="end">1.00%</text>
+<text x="236.0" y="0" class="fg-secondary font-percent" text-anchor="end">0.99%</text>
 </g>
 <g transform="translate(300.0, 178)">
 <circle cx="8" cy="-3" r="5" class="shell"/>
 <text x="24" y="0" class="fg-primary font-lang">Shell</text>
-<text x="236.0" y="0" class="fg-secondary font-percent" text-anchor="end">0.88%</text>
+<text x="236.0" y="0" class="fg-secondary font-percent" text-anchor="end">0.87%</text>
 </g>
 <rect x="37" y="220" width="150" height="65" class="stat-box"/>
-<text x="112.0" y="245" text-anchor="middle" dominant-baseline="middle" fill="#dcd7ba" class="stat-value">5,018</text>
+<text x="112.0" y="245" text-anchor="middle" dominant-baseline="middle" fill="#dcd7ba" class="stat-value">5,027</text>
 <text x="112.0" y="265" text-anchor="middle" dominant-baseline="middle" fill="#727169" class="stat-label">TOTAL CONTRIBUTIONS</text>
 <rect x="224" y="220" width="150" height="65" class="stat-box"/>
 <text x="299.0" y="245" text-anchor="middle" dominant-baseline="middle" fill="#7e9cd8" class="stat-value">0 DAYS</text>
 <text x="299.0" y="265" text-anchor="middle" dominant-baseline="middle" fill="#727169" class="stat-label">CURRENT STREAK</text>
 <rect x="411" y="220" width="150" height="65" class="stat-box"/>
-<text x="486.0" y="245" text-anchor="middle" dominant-baseline="middle" fill="#dcd7ba" class="stat-value">242 DAYS</text>
+<text x="486.0" y="245" text-anchor="middle" dominant-baseline="middle" fill="#dcd7ba" class="stat-value">330 DAYS</text>
 <text x="486.0" y="265" text-anchor="middle" dominant-baseline="middle" fill="#727169" class="stat-label">LONGEST STREAK</text>
 <line x1="60" y1="300" x2="540" y2="300" stroke="#2a2a37" stroke-width="1"/>
 <text x="300.0" y="318" text-anchor="middle" class="fg-secondary font-footer">Based on repository analysis • github.com/mavomen</text>
