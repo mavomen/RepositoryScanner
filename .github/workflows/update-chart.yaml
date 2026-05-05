@@ -73,20 +73,14 @@ jobs:
             echo "changed=false" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Pull latest changes before commit
-        if: steps.verify-changed-files.outputs.changed == 'true'
-        run: |
-          echo "Pulling latest changes to avoid conflicts..."
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git pull origin main --rebase || echo "No remote changes to pull"
-
       - name: Commit and push changes
         if: steps.verify-changed-files.outputs.changed == 'true'
         run: |
-          echo "Committing and pushing changes..."
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
           git add assets/languages.svg
-          git commit -m "Update language statistics [skip ci]" || exit 0
+          git commit -m "Update language statistics [skip ci]" || echo "No changes to commit"
+          git pull --rebase origin main
           git push origin main
 
       - name: Workflow summary
