@@ -32,12 +32,12 @@
         </text>
         
 <g id="language-bar" clip-path="url(#barClip)" shape-rendering="crispEdges">
-<rect x="60" y="85" width="169" height="24" class="python"/>
-<rect x="229" y="85" width="84" height="24" class="csharp"/>
-<rect x="313" y="85" width="74" height="24" class="lua"/>
-<rect x="387" y="85" width="69" height="24" class="rust"/>
-<rect x="456" y="85" width="67" height="24" class="typescript"/>
-<rect x="523" y="85" width="12" height="24" class="shell"/>
+<rect x="60" y="85" width="170" height="24" class="python"/>
+<rect x="230" y="85" width="84" height="24" class="csharp"/>
+<rect x="314" y="85" width="74" height="24" class="lua"/>
+<rect x="388" y="85" width="69" height="24" class="rust"/>
+<rect x="457" y="85" width="67" height="24" class="typescript"/>
+<rect x="524" y="85" width="12" height="24" class="shell"/>
 </g>
 <rect x="60" y="85" width="480" height="24" fill="#1f1f28" rx="4">
   <animate attributeName="width" from="480" to="0" dur="1.2s" fill="freeze"/>
@@ -45,17 +45,17 @@
 <g transform="translate(60.0, 134)">
 <circle cx="8" cy="-3" r="5" class="python"/>
 <text x="24" y="0" class="fg-primary font-lang">Python</text>
-<text x="236.0" y="0" class="fg-secondary font-percent" text-anchor="end">35.01%</text>
+<text x="236.0" y="0" class="fg-secondary font-percent" text-anchor="end">35.25%</text>
 </g>
 <g transform="translate(60.0, 156)">
 <circle cx="8" cy="-3" r="5" class="csharp"/>
 <text x="24" y="0" class="fg-primary font-lang">C#</text>
-<text x="236.0" y="0" class="fg-secondary font-percent" text-anchor="end">17.35%</text>
+<text x="236.0" y="0" class="fg-secondary font-percent" text-anchor="end">17.26%</text>
 </g>
 <g transform="translate(60.0, 178)">
 <circle cx="8" cy="-3" r="5" class="lua"/>
 <text x="24" y="0" class="fg-primary font-lang">Lua</text>
-<text x="236.0" y="0" class="fg-secondary font-percent" text-anchor="end">15.27%</text>
+<text x="236.0" y="0" class="fg-secondary font-percent" text-anchor="end">15.19%</text>
 </g>
 <g transform="translate(300.0, 134)">
 <circle cx="8" cy="-3" r="5" class="rust"/>
@@ -65,15 +65,15 @@
 <g transform="translate(300.0, 156)">
 <circle cx="8" cy="-3" r="5" class="typescript"/>
 <text x="24" y="0" class="fg-primary font-lang">TypeScript</text>
-<text x="236.0" y="0" class="fg-secondary font-percent" text-anchor="end">13.84%</text>
+<text x="236.0" y="0" class="fg-secondary font-percent" text-anchor="end">13.76%</text>
 </g>
 <g transform="translate(300.0, 178)">
 <circle cx="8" cy="-3" r="5" class="shell"/>
 <text x="24" y="0" class="fg-primary font-lang">Shell</text>
-<text x="236.0" y="0" class="fg-secondary font-percent" text-anchor="end">2.21%</text>
+<text x="236.0" y="0" class="fg-secondary font-percent" text-anchor="end">2.22%</text>
 </g>
 <rect x="37" y="220" width="150" height="65" class="stat-box"/>
-<text x="112.0" y="245" text-anchor="middle" dominant-baseline="middle" fill="#dcd7ba" class="stat-value">12,705</text>
+<text x="112.0" y="245" text-anchor="middle" dominant-baseline="middle" fill="#dcd7ba" class="stat-value">12,781</text>
 <text x="112.0" y="265" text-anchor="middle" dominant-baseline="middle" fill="#727169" class="stat-label">TOTAL CONTRIBUTIONS</text>
 <rect x="224" y="220" width="150" height="65" class="stat-box"/>
 <text x="299.0" y="245" text-anchor="middle" dominant-baseline="middle" fill="#7e9cd8" class="stat-value">0 DAYS</text>
